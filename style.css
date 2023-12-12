@@ -1,0 +1,54 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500&family=Open+Sans:wght@500&family=Rubik:wght@300;500&family=Work+Sans:wght@300&display=swap');
+box-sizing: border-box;
+font-family: 'cairo';
+}
+
+header{
+display:flex;
+justify-content: space-between;
+align-items:center;
+background-color: black;
+color:yellow;
+padding:0px 100px;
+border-top: solid yellow 4px;
+position: fixed;
+width: 100%;
+}
+header a {
+color:yellow;
+text-decoration: none;
+margin-right: 10px;
+font-size: 20px;
+transition: ease .1s;
+}
+header a:hover {
+color:white;
+font-size: 21px;
+}
+.carsour{
+height:100vh;
+display:flex;
+align-items: center;
+color: white;
+background-size: cover;
+background-image: url(images/pexels-felix-mittermeier-957312.jpg);
+background-attachment: fixed;
+}
+.carsour div {
+margin-left: 80px;
+}
+.carsour a {
+color:red;
+text-decoration: none;
+background-color: gold;
+padding:10px;
+border-radius: 10px;
+display:inline-block;
+margin-top: 10px;
+transition: ease 1s;
+}
+.carsour a:hover{
+transform: scale(1.1);
+background-color: yellow;
+}
